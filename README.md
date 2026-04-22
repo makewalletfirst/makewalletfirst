@@ -1,16 +1,41 @@
-## Hi there 👋
+# 지갑부터 만들어라
 
-<!--
-**makewalletfirst/makewalletfirst** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+3개의 독립 블록체인 생태계를 솔로로 설계·구축·운영 중입니다.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## EverChain Ecosystem · [ever-chain.xyz](https://ever-chain.xyz)
+
+| 체인 | 기반 | 특징 | 링크 |
+|---|---|---|---|
+| **BitEver (BEC)** | Bitcoin Core v30.2 | PoW, 포크블록 #478,558 | [탐색기](https://bitever.ever-chain.xyz) |
+| **EtherEver (ETE)** | Core-Geth (PoW) | Chain ID 58051, London HF | [탐색기](https://etherever.ever-chain.xyz) |
+| **SolaEver (SLE)** | Agave / Solana v4.0 | Tower BFT, 400ms slot | [탐색기](https://solaever.ever-chain.xyz) |
+
+각 체인마다 **노드 → 탐색기 → 지갑 → 인프라**를 직접 구축했습니다.
+
+---
+
+## 직접 건드린 것들
+
+- **C++** — Bitcoin Core chainparams, magic bytes 수정  
+- **Rust** — Solana validator u128 overflow 버그 패치 (`runtime/src/inflation_rewards`)  
+- **Go** — Core-Geth fork, Nethermind 모드 활성화  
+- **Python** — custom `proxy.py` (Esplora API 번역), `bootstrap.dat` 생성 스크립트  
+- **TypeScript** — Next.js Solana Explorer fork  
+- **Elixir** — BlockScout fork, SSL/WebSocket 수정  
+- **React Native** — MetaMask Mobile fork (iOS + Android, EtherEver 전용)  
+- **Python/Qt** — Electrum fork (Windows + Android)
+
+모든 레포는 **GitHub Actions CI 통과 + 실제 Ubuntu 빌드·운영 확인** 기준으로만 올립니다.
+
+---
+
+## 현재 진행 중
+
+- SolaEver 전용 경량 웹지갑 (`@solana/web3.js` 기반, SPL 토큰 포함)
+
+---
+
+[![Discord](https://img.shields.io/badge/Discord-지만쫌-5865F2?logo=discord)](https://discord.com/invite/dfSF58pzZB)
+[![YouTube](https://img.shields.io/badge/YouTube-지만쫌-FF0000?logo=youtube)](http://www.youtube.com/@지만쫌)
