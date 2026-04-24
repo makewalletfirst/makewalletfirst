@@ -9,7 +9,7 @@
 | 체인 | 기반 | 특징 | 링크 |
 |---|---|---|---|
 | **BitEver (BEC)** | Bitcoin Core v30.2 | PoW, 포크블록 #478,558 | [탐색기](https://bitever.ever-chain.xyz) |
-| **EtherEver (ETE)** | Core-Geth (PoW) | 포크블록 #1.919.999, London HF | [탐색기](https://etherever.ever-chain.xyz) |
+| **EtherEver (ETE)** | Core-Geth (PoW) | 포크블록 #1,919,999, London HF | [탐색기](https://etherever.ever-chain.xyz) |
 | **SolaEver (SLE)** | Agave / Solana v4.0 | Tower BFT, 400ms slot | [탐색기](https://solaever.ever-chain.xyz) |
 
 각 체인마다 **노드 + 탐색기 + 지갑 → 풀스택 인프라**를 직접 구축했습니다.
