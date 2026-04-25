@@ -31,6 +31,13 @@
 
 ---
 
+## 📈 Stats & Activity
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=makewalletfirst&show_icons=true&theme=tokyonight&hide_border=true&title_color=38bdf8&hide_rank=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=makewalletfirst&layout=compact&theme=tokyonight&hide_border=true&title_color=38bdf8" />
+</p>
+
 ## 최근 완료 작업 (260423)
 
 - SolaEver 전용 안드로이드 지갑 구현 완료(네이티브 코인 전송, SPL 토큰 전송, 뷰 트랜잭션 확인)
