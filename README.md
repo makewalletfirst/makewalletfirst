@@ -34,7 +34,7 @@
 ## 📈 Stats & Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=makewalletfirst&show_icons=true&theme=tokyonight&hide_border=true&title_color=38bdf8" />
+  <img src="https://github-readme-stats.vercel.app/api?username=makewalletfirst&show_icons=true&theme=tokyonight&hide_border=true&title_color=38bdf8&hide_rank=true" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=makewalletfirst&layout=compact&theme=tokyonight&hide_border=true&title_color=38bdf8" />
 </p>
 
