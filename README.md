@@ -48,6 +48,7 @@
 
 - EtherEver (L1)의 전용 L2 Layer 구축중 : 아비트럼 니트로 엔진 사용하여 DAC(AnyTrust) 기반으로 구축중. 알레시오 탐색기로 간략 탐색기 구축중
 - BitEver (L1)의 전용 Lightning Network 구축중 : phoenixd (LSP) 전용 라이트닝 노드 및 유동성 공급자(LP) 구축중, LightningEver App (Mobile) 전용 지갑 ACINQ Phoenix Wallet (Kotlin Multiplatform) 로 구축중
+- SolaEver에 Metaplex 기반 SPL 토큰 상세 데이터 프로그램 배포 개발 중
 
 ---
 
